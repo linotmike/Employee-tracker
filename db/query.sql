@@ -8,5 +8,5 @@ USE tracker_db;
 --INSERT INTO department (name) VALUES (?)
 --INSERT INTO role (title) VALUES (?);
 --INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?,?,?,?)
-UPDATE employee SET role_id = ? WHERE first_name = ? AND last_name = ?
+-- UPDATE employee SET role_id = ? WHERE first_name = ? AND last_name = ?
 --UPDATE reviews SET review = ? WHERE id = ?`
